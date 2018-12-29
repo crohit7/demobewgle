@@ -1,0 +1,10 @@
+<a routerLink="/product/{{productItem.product_id}}" class="card-link">
+    <div class="card card-body mt-4" style="border-radius: 0px" >
+        <img style="height:200px" src="{{productItem.imageUrl}}" alt="">
+        <hr>
+        <h5>{{productItem.name}}</h5>
+        <span class="text-secondary" style="font-size: 12px" >{{productItem.title}}</span> <br>
+        <p>Price : <span class="text-success">{{productItem.price}}</span></p>
+        <a href=""  class=" btn btn-success" style="border-radius: 0px">Add to cart</a>
+      </div>
+</a>
